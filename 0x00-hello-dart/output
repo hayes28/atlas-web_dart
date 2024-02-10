@@ -1,0 +1,4 @@
+docker run -it --rm -v /home/hayes/atlas-web_dart/0x00-hello-dart:/app -v dart-volume:/app/data dart-app-image dart 4-print_string.dart
+Holberton SchoolHolberton SchoolHolberton School
+Holberton
+
