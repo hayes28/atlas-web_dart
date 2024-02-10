@@ -34,9 +34,9 @@ youssef@Holberton/Dart$ dart 1-quotes.dart
 ```
 
 **2. Print Number**
-Complete this source code in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
+Complete this [source code](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2022/4/cd4e50dbcd9a9b6e40556d98f77e7c35315d0e45.dart?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20240210%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20240210T195623Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=4ee970d79f35b2c06c214c8b9cdbc0c6e4539305a95ac22123897cd972504413) in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
 
-- You can find the source code here
+- You can find the source code [here](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2022/4/cd4e50dbcd9a9b6e40556d98f77e7c35315d0e45.dart?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20240210%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20240210T195623Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=4ee970d79f35b2c06c214c8b9cdbc0c6e4539305a95ac22123897cd972504413)
 - The output of the script should be:
     - the number, followed by Battery street,
     - followed by a new line
@@ -48,9 +48,9 @@ youssef@Holberton/Dart$ dart 2-print_number.dart
 ```
 
 **3. Print Doubles**
-Complete the source code in order to print the doubles stored in the variable number with a precision of 2 digits.
+Complete the [source code](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2022/4/051815b2558a755331852082a54a55c046eecbe1.dart?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20240210%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20240210T195743Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=e7bac3cd0c3c14cd13cdd6c74c39a7969081236ada8a932abfd8d6cb95d030e1) in order to print the doubles stored in the variable number with a precision of 2 digits.
 
-- You can find the source code here
+- You can find the source code [here](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2022/4/051815b2558a755331852082a54a55c046eecbe1.dart?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20240210%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20240210T195743Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=e7bac3cd0c3c14cd13cdd6c74c39a7969081236ada8a932abfd8d6cb95d030e1)
 - The output of the program should be:
     - Double: followed by the double with only 2 digits
     - followed by a new line
@@ -60,9 +60,9 @@ Double: 3.14
 ```
 
 **4. Print string**
-Complete this source code in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
+Complete this [source code](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2022/4/eee3f8d0682099ca65dd48eacfb636114eb2bdcf.dart?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20240210%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20240210T195832Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f8dba8d95360733612b207891e1a8e6faa8e2251c924e444f143b4398951a8e3 in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
 
-- You can find the source code here
+- You can find the source code [here](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2022/4/eee3f8d0682099ca65dd48eacfb636114eb2bdcf.dart?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20240210%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20240210T195832Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f8dba8d95360733612b207891e1a8e6faa8e2251c924e444f143b4398951a8e3)
 - The output of the program should be:
     - 3 times the value of str
     - followed by a new line and the 9 first characters of str
