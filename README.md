@@ -28,3 +28,49 @@ This Dart project showcases a collection of functions to demonstrate practical a
 - Scope and Abstraction: Understand the concept of variable scope within functions and how functions help promote code abstraction.
 - Recursion: Introduce the concept of recursion (functions calling themselves) to solve problems elegantly.
 - Practical Applications: Explore how functions are used in practical scenarios such as calculations, string manipulation, data processing, and decision-making.
+
+## 0x02-dart-classes
+**Description**
+
+This project explores the fundamentals of object-oriented programming in Dart. You'll create classes, manipulate properties, implement methods, work with JSON, and apply concepts of inheritance.
+
+**Objectives**
+
+- Object-Oriented Programming Foundations: Gain a solid understanding of the core principles of OOP, including classes, objects, properties, and methods.
+- Encapsulation: Learn how to create classes that bundle data (properties) and related behaviors (methods) together, promoting code organization and maintainability.
+- Abstraction: Practice reducing complexity by modeling real-world concepts as classes in your code.
+- Inheritance: Explore how to create class hierarchies, enabling code reuse and the modeling of "is-a" relationships.
+- Data Serialization/Deserialization: Master the process of converting objects into a format suitable for storage or transmission (JSON) and vice versa.
+- Null Safety: Understand Dart's null-aware operators and how to effectively handle potential null values.
+
+### Task-Specific Objectives
+
+- Welcome:
+
+    - Define a custom class (User).
+    - Implement methods within a class.
+
+- User to JSON:
+
+    - Work with different data types within a class.
+    - Serialize class data into a structured format (JSON).
+- Password:
+
+    - Create a class to represent a password.
+    - Enforce specific validation rules for data integrity.
+    - Control how a class is represented as a string (toString()).
+- Private Password
+
+    - Grasp the concept of private members within a class.
+- Mutables
+
+    - Use getters and setters to provide controlled access to private members.
+- JSON to User
+
+    - Deserialize data (JSON) to create class instances.
+    - Provide a meaningful string representation of objects.
+- Inheritance
+
+    - Establish relationships between classes to promote code reuse.
+    - Combine object properties and behaviors from multiple classes.
+    - Handle potential null values and type safety in an inheritance context.
