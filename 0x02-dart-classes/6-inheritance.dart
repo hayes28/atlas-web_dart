@@ -21,7 +21,6 @@ class User extends Password {
   String get user_password => _userPassword;
 
   set user_password(String value) {
-    _userPassword = value;
     super.password = value; // Assign to 'Password' using the setter
   }
 
@@ -32,7 +31,6 @@ class User extends Password {
       'name': name,
       'age': age,
       'height': height,
-      'user_password': _userPassword,
     };
   }
 
