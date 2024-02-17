@@ -13,4 +13,9 @@ class Password {
     if (!password.contains(RegExp(r'[0-9]'))) return false;
     return true;
   }
+  
+@override
+  String toString() {
+    return 'Your Password is: ${this.password}';
+  }
 }
