@@ -5,24 +5,15 @@ class User extends Password {
   String name;
   int age;
   double height;
-  String _userPassword;
+  String user_password;
 
   User({
     required this.id,
     required this.name,
     required this.age,
     required this.height,
-    required String user_password, // 'required' keyword without a default value
-  })  : _userPassword = user_password,
-        super(
-            password:
-                user_password); // Passing 'user_password' to 'Password' constructor
-
-  String get user_password => _userPassword;
-
-  set user_password(String value) {
-    super.password = value; // Assign to 'Password' using the setter
-  }
+    required this.user_password,
+  }) : super(password: user_password);
 
   // Override toJson to include user_password
   Map<String, dynamic> toJson() {
@@ -37,13 +28,11 @@ class User extends Password {
   // fromJson method to create a User instance from a map.
   static User fromJson(Map<dynamic, dynamic> userJson) {
     return User(
-      id: userJson['id'],
-      name: userJson['name'],
-      age: userJson['age'],
-      height: userJson['height'],
-      user_password:
-          userJson['user_password'] ?? '', // Using null coalescing operator
-    );
+        id: userJson['id'],
+        name: userJson['name'],
+        age: userJson['age'],
+        height: userJson['height'],
+        user_password: userJson['user_password']);
   }
 
   // Override toString to include validation status of the password
