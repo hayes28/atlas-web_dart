@@ -74,3 +74,24 @@ This project explores the fundamentals of object-oriented programming in Dart. Y
     - Establish relationships between classes to promote code reuse.
     - Combine object properties and behaviors from multiple classes.
     - Handle potential null values and type safety in an inheritance context.
+
+## 0x03-asynchronous
+**Description**
+
+This project delves into the fundamentals of asynchronous programming within the Dart language.  You will develop skills in handling delayed operations, fetching data from simulated and external sources, and ensuring code robustness through effective error handling.
+
+**Objectives**
+
+- **Understanding Futures:** Grasp the concept of futures as placeholders for results that will be available in the future.
+- **Async/Await Syntax:** Master the use of async and await keywords to streamline asynchronous code and improve readability.
+- **Error Handling:** Learn how to employ try-catch blocks to gracefully handle exceptions that may arise during asynchronous operations.
+- **Data Fetching:** Practice techniques for simulating API calls and work with a real-world API to retrieve data asynchronously.
+- **Code Organization:** Structure asynchronous code in a logical and maintainable manner.
+
+### Task-Specific Objectives
+
+- **Users Count:** Introduce basic asynchronous programming concepts using futures.
+- **Get User ID/Get User:** Practice working with futures, JSON data, and error handling.
+- **Greet User:** Integrate multiple asynchronous operations, conditional logic, and robust error handling.
+- **Calcul Total:** Build proficiency in coordinating complex asynchronous processes, handling potential exceptions, and working with simulated data.
+- **Rick and Morty Characters:** Apply asynchronous fetching skills with an external API and practice using an established Dart package (http).
